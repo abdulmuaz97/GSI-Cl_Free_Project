@@ -14,13 +14,13 @@ WHITE = '\033[0m'
 RED = '\033[31m'
 GREEN = '\033[32m'
 BLUE = '\033[34m'
-#___________________________________________________________________
-#__Author__: AbdulMuaz Aqeel ^_^
-#__Job__: Security Programmer.
-#__Country__: Iraq-Baghdad
-#__Social__: facebook.com/AbdulMuaz.Aqeel.SSP
-#--------------------------------------------------------------------
-GSI = '''GSI-Cl For Security Developers Team(S.D.T) [Version 2.1] ^_^'''
+# ___________________________________________________________________
+# __Author__: AbdulMuaz Aqeel
+# __Job__: Security Programmer.
+# __Country__: Iraq-Baghdad
+# __SM__: facebook.com/AbdulMuaz.Aqeel.SSP
+# --------------------------------------------------------------------
+GSI = '''GSI-Command line For Security Developers Team(S.D.T)-(Version 2.1)'''
 commands_help = [  'base16-enc        |  Convert regular text to hash using base16...[Encoding].'
                  , 'base16-dec        |  Convert hash(base16) to regular text...[Decoding].'
                  , 'base32-enc        |  Convert regular text to hash using base32...[Encoding].'
@@ -67,7 +67,7 @@ commands_help = [  'base16-enc        |  Convert regular text to hash using base
                    ]
 
 print(GSI)
-print('['+RED+'+'+WHITE+'] Copyright(c)2016 Security Developers Team, Open Source Project.\n')
+print('['+RED+'+'+WHITE+'] Copyright(c)2014-2016 (Security Developers Team), Open Source Project.\n')
 Target = 1
 input_target = ''
 now = datetime.datetime.now()
@@ -154,8 +154,6 @@ while True:
                 print('Commands                 Description\n-----------------------------------------------------')
                 for i in range(len(commands_help)):
                      print(WHITE+'['+GREEN+'+'+WHITE+'] '+ str(commands_help[i]))
-                print('\n['+RED+'+'+WHITE+'] Total: '+str(len(commands_help)))
-                print('['+RED+'+'+WHITE+'] Copyright(c)2016 Security Developers Team, All Rights Reserved.')
             else:
                 print('Error: help [none]')
         else:
@@ -689,11 +687,3 @@ while True:
             print(RED+'[Error] '+WHITE+input_target+' : Command not found.')
 
     Target += 1
-
-
-
-
-
-
-
-# Done
