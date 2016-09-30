@@ -1,5 +1,4 @@
-#! usr/bin/python2.7
-# System Imports Needed...Require Do Not Remove Them!
+#! usr/bin/python2
 import datetime
 import platform
 import socket
@@ -15,11 +14,11 @@ WHITE = '\033[0m'
 RED = '\033[31m'
 GREEN = '\033[32m'
 BLUE = '\033[34m'
-#__________________________About the creato__________________________
+#___________________________________________________________________
 #__Author__: AbdulMuaz Aqeel ^_^
 #__Job__: Security Programmer.
 #__Country__: Iraq-Baghdad
-#__Social__: Facebook.com/abdulmuaz2015
+#__Social__: facebook.com/AbdulMuaz.Aqeel.SSP
 #--------------------------------------------------------------------
 GSI = '''GSI-Cl For Security Developers Team(S.D.T) [Version 2.1] ^_^'''
 commands_help = [  'base16-enc        |  Convert regular text to hash using base16...[Encoding].'
@@ -68,7 +67,7 @@ commands_help = [  'base16-enc        |  Convert regular text to hash using base
                    ]
 
 print(GSI)
-print('['+RED+'+'+WHITE+'] Copyright(c)2016 Security Developers Team, All Rights Reserved.\n')
+print('['+RED+'+'+WHITE+'] Copyright(c)2016 Security Developers Team, Open Source Project.\n')
 Target = 1
 input_target = ''
 now = datetime.datetime.now()
@@ -697,4 +696,4 @@ while True:
 
 
 
-v = '------------------------------------------------------Done--------------------------------------------------------'
+# Done
